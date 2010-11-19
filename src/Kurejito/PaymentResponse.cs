@@ -1,6 +1,6 @@
 ﻿namespace Kurejito {
 	/// <summary>
-	/// The result returned by the <see cref="IPaymentGateway" /> in response to a payment request.
+	/// The result returned by the <see cref="IPurchaseGateway" /> in response to a payment request.
 	/// </summary>
 	public class PaymentResponse {
 		/// <summary>An <see cref="PaymentStatus" /> indicating whether the payment request succeeded.</summary>

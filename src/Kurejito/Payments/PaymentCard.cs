@@ -22,12 +22,13 @@
 		/// <summary>Initialize an empty instance of <see cref="PaymentCard"/></summary>
 		public PaymentCard() { }
 
-		/// <summary>Initialize a new instance of <see cref="PaymentCard"/> based on the supplied values.</summary>
-		/// <param name="cardHolder">The full cardholder name, as it appears on the payment card.</param>
-		/// <param name="cardNumber">The PAN number - the long number across the front of the card</param>
-		/// <param name="expiryDate">The card expiry date</param>
-		/// <param name="cv2">The Card Verification Value or 'signature digits' from the payment card.</param>
-		public PaymentCard(string cardHolder, string cardNumber, CardDate expiryDate, string cv2, CardType cardType) {
+	    /// <summary>Initialize a new instance of <see cref="PaymentCard"/> based on the supplied values.</summary>
+	    /// <param name="cardHolder">The full cardholder name, as it appears on the payment card.</param>
+	    /// <param name="cardNumber">The PAN number - the long number across the front of the card</param>
+	    /// <param name="expiryDate">The card expiry date</param>
+	    /// <param name="cv2">The Card Verification Value or 'signature digits' from the payment card.</param>
+	    /// <param name="cardType"></param>
+	    public PaymentCard(string cardHolder, string cardNumber, CardDate expiryDate, string cv2, CardType cardType) {
 			this.CardHolder = cardHolder;
 			this.CardNumber = cardNumber;
 			this.ExpiryDate = expiryDate;

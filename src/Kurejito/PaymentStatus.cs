@@ -1,4 +1,6 @@
 ﻿namespace Kurejito {
+	///<summary>
+	///</summary>
 	public enum PaymentStatus {
 		/// <summary>The payment was taken successfully.</summary>
 		OK,
